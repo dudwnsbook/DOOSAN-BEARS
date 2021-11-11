@@ -54,12 +54,12 @@ html{
 
 
 /* TOGGLE SECTON */
-.hd .toggle-left{
+.toggle-left{
     padding-top:14.5px ;
     width: 35px;
     height: 35px;
 }
-.hd .toggle-right{
+.toggle-right{
     padding-top:14.5px ;
     width: 35px;
     height: 35px;
