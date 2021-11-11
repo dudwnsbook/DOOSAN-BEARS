@@ -1,0 +1,669 @@
+
+html{
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+.mobMenuBox_Left .m-menuWrap {
+    max-width: 480px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.m-menu-right .m-menuWrap-right {
+    max-width: 480px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BANNER SECTION*/
+.bannerWrap {
+ 
+    padding-top: 60px;
+    
+
+
+}
+
+.bannerBox {
+
+
+}
+
+.bannerBox::before {
+
+}
+
+
+.mainBottomWrap {
+    width: 100%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+
+}
+
+.mainBottomWrap .mainBottom {
+    display: none;
+    max-width: 800px;
+    height: 186.66666666668px;
+
+
+
+}
+
+
+
+
+
+
+
+
+/*GAMESCORE SECTION*/
+.wrap {
+    height: auto;
+}
+
+
+.gameCalendarWrap {
+    width: 100%;
+
+    height: 250px;
+    
+    padding-top: 10px;
+
+
+}
+
+
+
+.gameCalendarWrap .calendarTit a {
+  font-size: 2rem;
+}
+
+.gameCalendarWrap .gameCalendarBox {
+
+
+    width: 75%;
+   
+    height: 170px;
+   margin-top: 10px;
+
+}
+.gameCalendarBox .gameCalendar {
+    width: 300%;
+    height: 170px;
+
+
+
+}
+.gameCalendarWrap .prveBtn{
+    z-index: 0;
+    top:calc(50% - 1.5em);
+    left: 5%;
+
+}
+.gameCalendarWrap .nextBtn{
+
+    top:calc(50% - 1.5em);
+    right: 5%;
+    z-index: 0;
+
+}
+.gameCalendarWrap .prveBtn i , .nextBtn i {
+   
+    
+}
+.gameCalendarBox:before {
+  
+    width: 100%;
+    height: 140px;
+   
+    top: 12.25px;
+    border-radius: 40px;
+
+}
+
+
+
+
+
+
+.gameCalendar .game .date {
+    /* width: 367.5px; */
+    width: 47.11538461538%;
+    height: 24.5px;
+    line-height: 24.5px;
+    border-radius: 25px;
+    font-size: 1.4rem;
+}
+
+.game .gameRecord {
+    
+    margin-top: 7px;
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+  
+
+}
+.gameRecord .gameTeam{
+    width: 65px;
+}
+.gameRecord .gameTeam img {
+    display: block;
+    width: 65px;
+    height:  48.01801801802px;
+}
+.gameTeam span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    /* font-size: 1.6rem; */
+}
+
+
+
+.gameRecord strong {
+    font-size: 3.3rem;
+    color: black;
+    line-height: 60px;
+
+}
+
+.gameRecord .gameVs span {
+    font-family: 'Pretendard-ExtraBold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 60px;
+    color: #131230;
+}
+
+
+.gameCalendar .game .place {
+    width: 62px;
+    height: 25px;
+
+font-size: 1.6rem;
+ 
+    line-height: 25px;
+  
+
+}
+.game .gameStart{
+    
+    width: 100px;
+    font-size: 1.6rem;
+
+    margin-top: 10px;
+
+  
+}
+
+
+/* NEWSFANWRAP SECTION */
+
+.newsFanWrap{
+
+}
+.newsFanBox{
+    /* display: none; */
+    width: 100%;
+    height: 1400px;
+    padding:20px 20px 0;
+
+ 
+  
+   
+}
+.newfanTit {
+    display: flex;
+    width: 100%;
+    height: 57px;
+    align-items: center;
+}
+
+.newfanTit>img {
+    display: block;
+    width: 44px;
+    height: 57px;
+    margin-right: 10px;
+
+}
+
+.newfanTit>p {
+    /* padding-top: 60px; */
+    font-weight: 700;
+    
+}
+
+.newsFanBox{
+    height: 1000px;
+}
+
+.newsFanBox .newsFanCon{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    height: auto;
+ 
+    
+}
+.bearsNewsBox{
+    width: 100%;
+    /* width: 530px; */
+    height: 410px;
+    
+}
+.bearsNewsBox .newsTitlist .newstit{
+    
+    font-size: 1.9375rem;
+}
+
+.newsTitlist .newstit.on{
+   
+}
+.bearsNewsBox .newsCon{
+    
+    height: 310px;
+    width: 100%;
+
+    
+  
+}
+
+
+
+.newsCon .list li{
+    text-indent: 16px;
+    width: 100%;
+    height: 60px;
+    font-weight: 800;
+    font-size: 2.1375rem;/*    height: auto;*/
+    border-bottom: 2px solid #131230;
+    line-height: 60px;
+    
+    padding-right: 10px;
+/*    display: flex;*/
+    
+}
+
+
+.newsCon .subtit{
+    font-size: 1.7625rem;
+    
+}
+.newsCon a{
+    
+    width: 52%;
+
+
+    height: auto;
+
+}
+
+.newsCon .date{
+    font-size: 1.875rem;
+}
+.fanBox{
+
+    
+   
+}
+.fanCom{
+  
+}
+.fanCom a{
+
+
+}
+
+
+
+.SubBanCon{
+
+    /* flex-direction: column; */
+
+    
+  
+    /* justify-content: center; */
+}
+.shopWrap{
+
+}
+.shopBox {
+
+
+}
+
+.shop {
+   
+
+}
+
+.shop a {
+
+
+}
+.tickWrap{
+  
+}
+.ticketBox {
+ 
+
+}
+
+.ticket {
+
+
+}
+
+.ticket a {
+
+
+}
+
+.shop img,
+.ticket img {
+
+}
+
+
+
+
+/* .shop{
+    width:100%;
+
+}
+.shop img{
+    display: block;
+    width: 100%;
+    height: 190px;
+}
+.ticket{
+        width:100%;
+
+} */
+
+
+/*BEARSMIDEO SECTION*/
+.bearsMideoWrap {
+    width: 100%;
+    height: 740px;
+    background: #fff;
+    position: relative;
+
+}
+
+
+
+.bearsMideoWrap::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 480px;
+    /* background: #c7c6c6; */
+    background: #eaeaea;
+
+    position: absolute;
+    top: 53px;
+    left: 0;
+
+}
+
+.bearsMideoWrap::after {
+    content: "";
+    display: none;
+    width: 100%;
+    height: 247px;
+    /* background: #eaeaea; */
+    background: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+   
+
+}
+
+.bearsMideoWrap .bearsMideoBox {
+    width: 100%;
+    height: 740px;
+    /* margin: 0 auto; */
+    padding-top: 0;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    /* background: red; */
+}
+
+.bearsMideoBox .MideoTop {
+
+    width: 100%;
+    height: 50px;
+    
+}
+
+
+
+.bearsMideoBox .MideoTop>img {
+
+    /* float: left; */
+
+}
+
+.bearsMideoBox .mideoTitle {
+    width: 30%;
+    
+    font-size: 2.1em;
+        /* float: left; */
+    
+
+}
+
+.border {
+
+    display: none;
+
+
+}
+
+.MideoConBox {
+    
+    height: 470px;
+
+
+}
+
+.MideoConBox .mascortBox {
+    display: none;
+
+}
+
+.MideoConBox .firstVideo {
+    width: 100%;
+    height: 450px;
+    box-sizing: content-box;
+
+}
+
+.firstVideo .firstImg {
+    width: 100%;
+    height: 320px;
+   
+}
+
+.firstImg img {
+    height: 320px;
+
+}
+.firstVideo:hover img{
+ 
+
+}
+.firstVideo .firstText {
+    height: 130px;
+
+
+}
+
+.firstText .textTit {
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding-top: 25px;
+
+}
+.firstText span{
+    font-size: 20px;
+    
+}
+.MideoConBox .videoListBox {
+    display: none;
+  
+}
+
+
+.mideoBottom {
+    display: none;
+    margin-top: 0px;
+}
+
+
+
+.mideoSns {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.dooRunBox{
+    width: 135px;
+}
+.dooRunBox img{
+    display: block;
+    width: 135px;
+    height: 56.65137614679px;
+}
+.dooRunBox p {
+    
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.snsBox {
+    width: 195px;
+    /*    background: red;*/
+}
+
+.snsBox .snsCon {
+
+}
+.snsCon img{
+    display: block;
+    width: 55.46666666666px;
+    height: 55.46666666666px;
+}
+.snsBox p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/*FOOTER SECTION*/
+
+.ft {
+    width: 100%;
+    height: 180px;
+    border-top: 2px solid #ccc;
+
+           background: #fff;
+
+}
+.ft .sponserWrpa{
+    display: none;
+
+}
+
+
+
+.ftTxtWrap{
+    width: 100%;
+    height: 180px;
+    padding-top: 20px;
+}
+.informationBox .informationUl{
+ display: flex;   
+ justify-content: center;
+}
+.informationUl li{
+    border-right: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 12px;
+    font-size: 1.025rem;
+
+}
+
+.informationUl li:last-child{
+    border-right: 0;
+}
+.ftTxtBox{
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+    font-size: 1.125rem;
+
+}
+.fiTxt{
+    
+  
+}
+.fiTxt .copy{
+    display: block;
+}
+.ftTxtBox address{
+    font-style: normal;
+}
+.ftLogoBox{
+    display: none;
+
+}
+
+
+.ft .niceLogo{
+    display: none;
+    
+}

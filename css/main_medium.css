@@ -1,0 +1,747 @@
+html {
+    font-size: 14px;
+}
+
+.fix {
+    display: none;
+}
+
+/* HEADER SECTION */
+.header--wrap {
+    width: 100%;
+    height: auto;
+}
+
+.header--box {
+    width: 100%;
+    height: 80px;
+    padding: 0 20px 0;
+}
+
+.header--box .logo {
+    width: 60.6px;
+    height: 111px;
+    position: absolute;
+    top: 3px;
+    left: calc(50% - 30.3px);
+}
+
+.header--box img {
+    width: 60.6px;
+    height: 111px;
+    position: absolute;
+    z-index: 0;
+}
+
+.header--box .bottom-menu {
+    display: none;
+}
+
+
+.header--box .header--top {
+    display: none;
+}
+
+.menuNav i {
+    display: none;
+}
+
+.header--box .toggle-left {
+    display: block;
+}
+
+.header--box .toggle-right {
+    display: block;
+}
+
+.m-menu-left {
+    display: block;
+}
+
+.m-menu-right {
+    display: block;
+}
+
+
+
+
+/*BANNER SECTION*/
+.bannerWrap {
+
+
+    padding-top: 80px;
+    box-sizing: content-box;
+
+
+}
+
+
+
+
+.mainBottomWrap {
+    width: 100%;
+    background: #eaeaea;
+    background: -moz-linear-gradient(left, #eaeaea 50%, #b2b2b2 51%, #b2b2b2 51%, #b2b2b2 65%);
+    background: -webkit-linear-gradient(left, #eaeaea 50%, #b2b2b2 51%, #b2b2b2 51%, #b2b2b2 65%);
+    background: linear-gradient(to right, #eaeaea 50%, #b2b2b2 51%, #b2b2b2 51%, #b2b2b2 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaeaea', endColorstr='#b2b2b2', GradientType=1);
+    padding: 0 20px;
+}
+
+
+/*GAMESCORE SECTION*/
+.wrap {
+
+}
+
+
+.gameCalendarWrap {
+    width: 100%;
+    height: 580px;
+    padding-top: 30px;
+}
+
+
+
+.gameCalendarWrap .calendarTit a {
+
+    /* font-size: 2.5em; */
+}
+
+.gameCalendarWrap .gameCalendarBox {
+
+    width: 75%;
+    /* width: 65%; */
+    height: 420px;
+
+    margin-top: 20px;
+
+
+}
+
+.gameCalendarWrap .prveBtn {
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 2em);
+    left: 5%;
+    cursor: pointer;
+}
+
+.gameCalendarWrap .nextBtn {
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 2em);
+    right: 5%;
+    cursor: pointer;
+
+}
+
+.gameCalendarWrap .prveBtn i,
+.nextBtn i {
+    color: #fff;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.gameCalendarBox:before {
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 395px;
+    position: absolute;
+    top: 24.25px;
+    z-index: 0;
+    background: #f5f4f4;
+
+    opacity: 0.8;
+    border-radius: 100px;
+
+}
+
+
+
+.gameCalendarBox .gameCalendar {
+    width: 300%;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    transition: 0.6s;
+
+
+}
+
+.gameCalendar .game {
+    width: 100%;
+    height: 100%;
+
+
+
+
+}
+
+
+
+
+.gameCalendar .game .date {
+    width: 47.11538461538%;
+
+}
+
+.game .gameRecord {
+    margin-top: 40px;
+    /* background-color: red; */
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gameRecord .gameTeam{
+    width: 188.7px;
+}
+.gameRecord .gameTeam img {
+    display: block;
+    width: 188.7px;
+    height: 139.4px;
+}
+.gameTeam span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    /* font-size: 1.6rem; */
+}
+
+
+
+.gameRecord strong {
+    /* font-size: 5.3rem; */
+    color: black;
+    line-height: 170px;
+
+}
+
+.gameRecord .gameVs span {
+    font-family: 'Pretendard-ExtraBold';
+    /* font-size: 3.6rem; */
+    font-weight: bold;
+    line-height: 170px;
+    color: #131230;
+}
+
+.gameCalendar .game .place {
+    width: 152px;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+
+    border-radius: 67px;
+    background: url(../images/placeBG.png) no-repeat;
+    background-size: 100% 100%;
+
+
+    /* font-size: 2.3em; */
+    font-weight: bold;
+    line-height: 55px;
+    color: #fffefe;
+
+}
+
+.game .gameStart {
+
+    width: 160px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    /* font-size: 2.5em; */
+    /* font-weight: 800; */
+}
+
+
+
+/* NEWSFANWRAP SECTION */
+.newsFanWrap {
+    width: 100%;
+    height: auto;
+
+}
+
+.newsFanBox {
+    width: 100%;
+    height: 880px;
+    /* margin: 0 auto; */
+    padding-top: 60px;
+    padding: 0 20px;
+
+
+}
+
+.newfanTit {
+    display: flex;
+    width: 100%;
+    height: 77px;
+    align-items: center;
+}
+
+.newfanTit>img {
+    display: block;
+    width: 54px;
+    height: 67px;
+    margin-right: 10px;
+
+}
+
+.newfanTit>p {
+    /* padding-top: 60px; */
+    font-weight: 700;
+}
+
+
+.newsFanBox .newsFanCon {
+    margin-top: 50px;
+    /* justify-content: space-between; */
+}
+
+.bearsNewsBox {
+    width: 47.5%;
+
+    height: 400px;
+
+}
+
+.bearsNewsBox .newsTitlist .newstit {
+
+    /* width: 21.05263157895%; */
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.bearsNewsBox .newsCon {}
+
+
+
+
+.newsCon .list li {
+    text-indent: 13px;
+
+    padding-right: 5px;
+
+
+}
+
+.newsCon ul li:last-child {
+    border-bottom: none;
+}
+
+.newsCon .subtit {
+    /* display: inline-block; */
+    font-size: 17px;
+
+    margin-right: 5px;
+    /* float: left; */
+
+}
+
+
+
+.fanBox{
+    width: 45.83333333333%;
+    /* height: auto; */
+
+}
+.fanCom {
+  width: 100%;
+  height: 100%;
+
+}
+
+.SubBanCon {
+    
+}
+.shopWrap{
+    width: 48.33333333333%;
+    height: auto;
+}
+.shopBox {
+    width:100%;
+
+}
+.tickWrap{
+    width: 48.33333333333%;
+    height: auto;
+}
+.ticketBox {
+    width: 100%;
+
+}
+
+
+
+/*BEARSMIDEO SECTION*/
+.bearsMideoWrap {
+    width: 100%;
+    height: 820px;
+    background: #fff;
+    position: relative;
+
+}
+
+
+
+.bearsMideoWrap::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 490px;
+    /* background: #c7c6c6; */
+    background: #eaeaea;
+
+    position: absolute;
+    top: 53px;
+    left: 0;
+
+}
+
+
+
+.bearsMideoWrap .bearsMideoBox {
+    width: 100%;
+    height: 820px;
+    /* margin: 0 auto; */
+    padding-top: 0;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    /* background: red; */
+}
+
+.bearsMideoBox .MideoTop {
+
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+
+}
+
+
+
+.bearsMideoBox .MideoTop>img {
+    width: 54px;
+    height: 35.6px;
+    /* float: left; */
+
+}
+
+.bearsMideoBox .mideoTitle {
+    width: 30%;
+
+    /* float: left; */
+
+
+}
+
+.border {
+
+    display: none;
+
+
+}
+.plusBox{
+    /* margin: 0; */
+}
+.plusBox i{
+    display: none;
+}
+.plusBox span{
+    display: block;
+    font-size: 1.3rem;
+    
+}
+.MideoConBox {
+    margin-top: 10px;
+    width: 100%;
+    height: 480px;
+    background: #eaeaea;
+    padding-top: 10px;
+    display: flex;
+    position: relative;
+}
+
+.MideoConBox .mascortBox {
+    display: none;
+
+}
+
+.MideoConBox .firstVideo {
+    width: 47.5%;
+    /* width: 486.4px; */
+    /* width: 356.25px; */
+    height: 480px;
+    box-sizing: content-box;
+
+}
+
+.firstVideo .firstImg {
+    width: 100%;
+    height: 290px;
+
+}
+
+.firstImg img {
+    height: 290px;
+
+}
+
+.firstVideo:hover img {}
+
+.firstVideo .firstText {
+    height: 130px;
+
+
+}
+
+.firstText .textTit {
+    font-weight: 600;
+    padding-top: 25px;
+
+}
+
+.firstText span {}
+
+.MideoConBox .videoListBox {
+    width: 50%;
+    height: 290px;
+    /* margin: 0 0 auto auto; */
+}
+
+.videoListBox .listBox a {
+    display: flex;
+
+}
+
+
+.videoListBox img {
+    width: 45%;
+    /* width: 170px; */
+    height: 141px;
+    display: block;
+}
+
+.videoListBox .listText {
+    width: 55%;
+    /* width: 45%; */
+    height: 141px;
+    padding-left: 12px;
+    padding-top: 17px;
+
+
+
+}
+
+
+
+
+.videoListBox .list2Box {
+    margin-top: 14px;
+}
+
+
+
+.listText .listTextTit {
+    font-weight: 600;
+
+}
+
+.listText span {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-weight: 400;
+
+}
+
+.mideoBottom {
+    display: none;
+    margin-top: 0px;
+}
+
+.mideoBottom .bottomLine {
+    display: inline-block;
+
+    width: 100%;
+    height: 15px;
+    background: #131230;
+}
+
+
+.mideoSns {
+    /* width: 600px; */
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 35px;
+    
+}
+.dooRunBox{
+    width: 220px;
+}
+.dooRunBox p {
+    text-align: center;
+    font-weight: 700;
+    color: #131230;
+    /*    margin-top: 10px;*/
+}
+
+.snsBox {
+    width: 300px;
+    /*    background: red;*/
+}
+
+.snsBox .snsCon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.snsBox p {
+    text-align: center;
+    font-weight: 700;
+    color: #131230;
+    margin-top: 10px;
+}
+
+/*FOOTER SECTION*/
+
+.ft {
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid #ccc;
+
+    background: #fff;
+
+}
+
+.ft .sponserWrpa {
+    width: 100%;
+    height: 65px;
+    border-bottom: 2px solid #ccc;
+}
+
+.ft .giveWrap {
+    width: 100%;
+    height: 65px;
+    /* background: #eaeaea; */
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.giveWrap i {
+    position: absolute;
+    line-height: 65px;
+    cursor: pointer;
+    color: #ccc;
+
+}
+
+.giveWrap .xi-angle-left-min {
+    left: 0;
+
+}
+
+.giveWrap .xi-angle-right-min {
+    right: 0;
+    ;
+}
+
+.giveWrap .giveBox {
+    width: 90%;
+    height: 65px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.giveWrap .giveUl {
+    width: 2300%;
+    height: 65px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.giveUl li {
+    float: left;
+
+}
+
+.giveUl li img {
+    display: block;
+    width: 180px;
+    height: 60px;
+}
+
+.ftTxtWrap {
+    width: 100%;
+    height: 235px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.informationBox .informationUl {
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+
+.informationUl li {
+    /* float: left; */
+    border-right: 1px solid #ccc;
+    padding-left: 7px;
+    padding-right: 9px;
+    font-size: 1.025rem;
+
+}
+
+.informationUl li:last-child {
+    border-right: 0;
+}
+
+.ftTxtBox {
+    /* clear: both; */
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-top: 40px;
+    padding: 0 20px;
+    /* display: flex; */
+    /* font-size: 1.025rem; */
+
+
+}
+
+.fiTxt {
+    /* float: left; */
+    /* margin-left: 0; */
+
+}
+
+.ftTxtBox address {
+    font-style: normal;
+}
+
+.ftLogoBox {
+    display: flex;
+
+}
+
+
+.ft .niceLogo {
+    display: none;
+
+}

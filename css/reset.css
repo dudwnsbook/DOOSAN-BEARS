@@ -1,0 +1,39 @@
+/*초기화*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    /*    overflow-x: hidden; */
+    font-family: 'Nanum Gothic', sans-serif;
+/*    background: #131230;*/
+    
+}
+
+html {
+    overflow-x: hidden;
+}
+
+ul,
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+button,
+label,
+input {
+    border: none;
+    outline: none;
+}

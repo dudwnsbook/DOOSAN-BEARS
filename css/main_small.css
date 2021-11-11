@@ -1,0 +1,839 @@
+
+html{
+    font-size: 11px;
+}
+
+.header--wrap {
+  
+    height: auto;
+
+
+}
+
+
+
+.header--box {
+  
+    height: 60px;
+    padding: 0 10px;
+
+}
+
+
+
+.header--box .logo {
+
+    width: 45.3px;
+    height: 70.5px;
+    
+    /* top: 30px; */
+    top: 0px;
+    left: calc(50% - 27.65px);
+}
+
+.header--box img {
+  
+    width: 45.3px;
+    height: 70.5px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TOGGLE SECTON */
+.hd .toggle-left{
+    padding-top:14.5px ;
+    width: 35px;
+    height: 35px;
+}
+.hd .toggle-right{
+    padding-top:14.5px ;
+    width: 35px;
+    height: 35px;
+   
+
+ 
+}
+
+
+
+.m-menu-left .m-menuWrap {
+    max-width: 768px;
+
+    
+}
+
+
+
+.m-menuBox .m-logo {
+    width: 100%;
+    height: 80px;
+
+}
+
+.m-logo .m-logoImg {
+    width: 176px;
+    height: 60px;
+
+}
+
+
+
+
+.m-menu .m-con {
+    font-size: 1.875rem;
+
+}
+
+.m-depth li {
+
+    height: 40px;
+    line-height: 30px;
+    font-size: 1.675rem;
+}
+
+
+
+
+
+
+.m-menu-right .m-menuWrap-right {
+    max-width: 768px;
+
+}
+
+
+.m-menuBox-right .m-menuTop-right {
+    width: 100%;
+    height: 90px;
+
+}
+.m-menuTop-right ul{
+    width: 50%;
+    height: 90px;
+ 
+
+}
+.ball{
+    width: 108.8px;
+    height: 108.8px;
+
+}
+.leftBall{
+    left: -54.4px;
+    bottom: -54.4px;
+}
+.rightBall{
+    right: -54.4px;
+    bottom: -54.4px;
+}
+
+
+.m-menuTop-right ul li{
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.1rem;
+}
+.topIcon{
+    width: 38px;
+    height: 38px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/*BANNER SECTION*/
+.bannerWrap {
+ 
+    padding-top: 60px;
+    
+
+
+}
+
+.bannerBox {
+
+    max-width: 768px;
+    /* height: 460px; */
+    position: relative;
+    background: url(../images/m_bannerbg.jpg) no-repeat;
+    background-size: 100% 100%;
+
+}
+.imgList .pc_banner {
+    display: none;
+
+}
+.imgList .m_banner{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.bannerBox::before {
+    content: "";
+    display: block;
+    
+    padding-top: 65.59244791666667%;
+    box-sizing: content-box;
+}
+
+
+.mainBottomWrap {
+    width: 100%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+
+}
+
+.mainBottomWrap .mainBottom {
+    display: none;
+    max-width: 800px;
+    height: 186.66666666668px;
+
+
+
+}
+
+
+
+
+
+
+
+
+/*GAMESCORE SECTION*/
+.wrap {
+    height: auto;
+}
+
+
+.gameCalendarWrap {
+    width: 100%;
+
+    height: 400px;
+    
+    padding-top: 20px;
+
+
+}
+
+
+
+.gameCalendarWrap .calendarTit a {
+  
+}
+
+.gameCalendarWrap .gameCalendarBox {
+
+
+    width: 75%;
+   
+    height: 250px;
+   margin-top: 20px;
+
+}
+.gameCalendarWrap .prveBtn{
+    z-index: 0;
+    top:calc(50% - 1.5em);
+    left: 5%;
+
+}
+.gameCalendarWrap .nextBtn{
+
+    top:calc(50% - 1.5em);
+    right: 5%;
+    z-index: 0;
+
+}
+.gameCalendarWrap .prveBtn i , .nextBtn i {
+   
+    
+}
+.gameCalendarBox:before {
+  
+    width: 100%;
+    height: 225px;
+   
+    top: 24.25px;
+    border-radius: 40px;
+
+}
+
+.gameCalendarBox .gameCalendar{
+    height: 250px;
+}
+
+
+
+
+.gameCalendar .game .date {
+    /* width: 367.5px; */
+    width: 47.11538461538%;
+    height: 44.5px;
+    line-height: 44.5px;
+    border-radius: 25px;
+}
+
+.game .gameRecord {
+    
+    margin-top: 10px;
+    width: 100%;
+    height: 110px;
+    /* background-color: red; */
+  
+
+}
+.gameRecord .gameTeam{
+    width: 155.4px;
+}
+.gameRecord .gameTeam img {
+    display: block;
+    width: 155.4px;
+    height:  114.8px;
+}
+.gameTeam span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    /* font-size: 1.6rem; */
+}
+
+
+
+.gameRecord strong {
+    /* font-size: 5.3rem; */
+    color: black;
+    line-height: 110px;
+
+}
+
+.gameRecord .gameVs span {
+    font-family: 'Pretendard-ExtraBold';
+    /* font-size: 3.6rem; */
+    font-weight: bold;
+    line-height: 110px;
+    color: #131230;
+}
+
+
+.gameCalendar .game .place {
+    width: 92px;
+    height: 35px;
+
+
+ 
+    line-height: 35px;
+  
+
+}
+.game .gameStart{
+    
+    width: 100px;
+    
+
+    margin-top: 10px;
+
+  
+}
+
+/* NEWSFANWRAP SECTION */
+
+.newsFanWrap{
+    height: auto;
+}
+.newsFanBox{
+    /* display: none; */
+    width: 100%;
+    height: auto !important;
+    padding:20px 20px 0;
+
+ 
+  
+   
+}
+.newfanTit {
+    display: flex;
+    width: 100%;
+    height: 67px;
+    align-items: center;
+}
+
+.newfanTit>img {
+    display: block;
+    width: 54px;
+    height: 67px;
+    margin-right: 10px;
+
+}
+
+.newfanTit>p {
+    /* padding-top: 60px; */
+    font-weight: 700;
+    
+}
+
+.newsFanBox{
+    height: 1500px;
+    
+}
+
+.newsFanBox .newsFanCon{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* margin-top: 50px;
+     display: flex;
+    justify-content: space-between; */
+    
+}
+.bearsNewsBox{
+    width: 100%;
+    /* width: 530px; */
+    height: 430px;
+    
+}
+.bearsNewsBox .newsTitlist .newstit{
+    
+    font-size: 1.9375rem;
+}
+
+.newsTitlist .newstit.on{
+   
+}
+.bearsNewsBox .newsCon{
+    
+    height: 310px;
+    width: 100%;
+    
+
+    
+  
+}
+
+
+
+.newsCon .list li{
+    text-indent: 16px;
+    width: 100%;
+    height: 60px;
+    font-weight: 800;
+    font-size: 2.1375rem;/*    height: auto;*/
+    border-bottom: 2px solid #131230;
+    line-height: 60px;
+    
+    padding-right: 10px;
+/*    display: flex;*/
+    
+}
+
+
+.newsCon .subtit{
+    font-size: 1.7625rem;
+    
+}
+.newsCon a{
+    
+    width: 52%;
+
+
+    height: auto;
+
+}
+
+.newsCon .date{
+    font-size: 1.875rem;
+}
+
+.fanBox{
+    position: relative;
+    width: 100%;
+    padding-bottom: 32.82967032967033%;
+    border: 0;
+    border-radius: 30px;
+    margin-bottom: 20px;
+   
+}
+.fanCom{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+ 
+}
+.fanCom a{
+
+    position: absolute !important;
+    top: 0;
+    left: 0;
+}
+.fanCom a .pc_fan {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.fanCom a .m_fan{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.SubBanCon{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+
+    
+  
+    /* justify-content: center; */
+}
+.shopWrap{
+    width: 100%;
+   
+  
+}
+.shopBox {
+    width: 100%;
+    padding-bottom: 32.82967032967033%;
+
+
+}
+
+.shop {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.shop a {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tickWrap{
+    margin-top: 20px;
+    width: 100%;
+    
+    /* margin-top: 20px; */
+}
+.ticketBox {
+    width: 100%;
+    padding-bottom: 32.82967032967033%;
+
+}
+
+.ticket {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.ticket a {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.shop img,
+.ticket img {
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* .shop{
+    width:100%;
+
+}
+.shop img{
+    display: block;
+    width: 100%;
+    height: 190px;
+}
+.ticket{
+        width:100%;
+
+} */
+
+
+/*BEARSMIDEO SECTION*/
+.bearsMideoWrap {
+    width: 100%;
+    height: 740px;
+    background: #fff;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+
+
+.bearsMideoWrap::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 480px;
+    /* background: #c7c6c6; */
+    background: #eaeaea;
+
+    position: absolute;
+    top: 53px;
+    left: 0;
+
+}
+
+.bearsMideoWrap::after {
+    
+    display: none;
+ 
+   
+
+}
+
+.bearsMideoWrap .bearsMideoBox {
+    width: 100%;
+    height: 740px;
+    /* margin: 0 auto; */
+    padding-top: 0;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    /* background: red; */
+}
+
+.bearsMideoBox .MideoTop {
+
+    width: 100%;
+    height: 50px;
+    
+}
+
+
+
+.bearsMideoBox .MideoTop>img {
+ 
+    /* float: left; */
+
+}
+
+.bearsMideoBox .mideoTitle {
+    width: 30%;
+    
+    font-size: 2.1rem;
+        /* float: left; */
+    
+
+}
+
+.border {
+
+    display: none;
+
+
+}
+
+.MideoConBox {
+    
+    height: 470px;
+
+
+}
+
+.MideoConBox .mascortBox {
+    display: none;
+
+}
+
+.MideoConBox .firstVideo {
+    width: 100%;
+    height: 450px;
+    box-sizing: content-box;
+
+}
+
+.firstVideo .firstImg {
+    width: 100%;
+    height: 320px;
+   
+}
+
+.firstImg img {
+    height: 320px;
+
+}
+.firstVideo:hover img{
+ 
+
+}
+.firstVideo .firstText {
+    height: 130px;
+
+
+}
+
+.firstText .textTit {
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding-top: 25px;
+
+}
+.firstText span{
+    font-size: 20px;
+    
+}
+.MideoConBox .videoListBox {
+    display: none;
+  
+}
+
+
+.mideoBottom {
+    display: none;
+    margin-top: 0px;
+}
+
+
+
+.mideoSns {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.dooRunBox{
+    width: 163.5px;
+}
+.dooRunBox img{
+    display: block;
+    width: 163.5px;
+    height: 71.25000000001px;
+}
+.dooRunBox p {
+    
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.snsBox {
+    width: 225px;
+    /*    background: red;*/
+}
+
+.snsBox .snsCon {
+
+}
+.snsCon img{
+    display: block;
+    width: 64.5px;
+    height: 64.5px;
+}
+.snsBox p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*FOOTER SECTION*/
+
+.ft {
+    width: 100%;
+    height: 180px;
+    border-top: 2px solid #ccc;
+
+           background: #fff;
+
+}
+.ft .sponserWrpa{
+    display: none;
+
+}
+
+
+
+.ftTxtWrap{
+    width: 100%;
+    height: 180px;
+    /* margin: 0 auto; */
+    padding-top: 20px;
+}
+.informationBox .informationUl{
+ display: flex;   
+ justify-content: center;
+ /* margin: 0 auto; */
+}
+.informationUl li{
+    /* float: left; */
+    border-right: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 12px;
+    font-size: 1.125rem;
+
+}
+
+.informationUl li:last-child{
+    border-right: 0;
+}
+.ftTxtBox{
+    /* clear: both; */
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-top: 40px;
+    padding: 0 20px;
+    font-size: 1.325rem;
+    /* display: flex; */
+
+}
+.fiTxt{
+    /* float: left; */
+    /* margin-left: 0; */
+  
+}
+.fiTxt .copy{
+    display: block;
+}
+.ftTxtBox address{
+    font-style: normal;
+}
+.ftLogoBox{
+    display: none;
+
+}
+
+
+.ft .niceLogo{
+    display: none;
+    
+}
