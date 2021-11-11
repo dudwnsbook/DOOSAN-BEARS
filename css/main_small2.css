@@ -1,6 +1,6 @@
 
 html{
-    font-size: 10px;
+    font-size: 8px;
 }
 
 
@@ -146,7 +146,7 @@ html{
 
 }
 .gameCalendarWrap .prveBtn i , .nextBtn i {
-   
+    font-size: 3em;
     
 }
 .gameCalendarBox:before {
@@ -423,7 +423,7 @@ font-size: 1.6rem;
 /*BEARSMIDEO SECTION*/
 .bearsMideoWrap {
     width: 100%;
-    height: 740px;
+    height: 600px;
     background: #fff;
     position: relative;
 
@@ -435,7 +435,7 @@ font-size: 1.6rem;
     content: "";
     display: block;
     width: 100%;
-    height: 480px;
+    height: 390px;
     /* background: #c7c6c6; */
     background: #eaeaea;
 
@@ -461,7 +461,7 @@ font-size: 1.6rem;
 
 .bearsMideoWrap .bearsMideoBox {
     width: 100%;
-    height: 740px;
+    height: 540px;
     /* margin: 0 auto; */
     padding-top: 0;
     position: relative;
@@ -486,7 +486,7 @@ font-size: 1.6rem;
 }
 
 .bearsMideoBox .mideoTitle {
-    width: 30%;
+    width: 40%;
     
     font-size: 2.1em;
         /* float: left; */
@@ -503,7 +503,7 @@ font-size: 1.6rem;
 
 .MideoConBox {
     
-    height: 470px;
+    height: 380px;
 
 
 }
@@ -515,19 +515,19 @@ font-size: 1.6rem;
 
 .MideoConBox .firstVideo {
     width: 100%;
-    height: 450px;
+    height: 350px;
     box-sizing: content-box;
 
 }
 
 .firstVideo .firstImg {
     width: 100%;
-    height: 320px;
+    height: 248.06754221389px;
    
 }
 
 .firstImg img {
-    height: 320px;
+    height: 248.06754221389px;
 
 }
 .firstVideo:hover img{
@@ -571,22 +571,22 @@ font-size: 1.6rem;
     margin-top: 25px;
 }
 .dooRunBox{
-    width: 135px;
+    width: 115px;
 }
 .dooRunBox img{
-    display: block;
-    width: 135px;
-    height: 56.65137614679px;
+  
+    width: 115px;
+    height: 48.2585796806px;
 }
 .dooRunBox p {
     
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 600;
 
 }
 
 .snsBox {
-    width: 195px;
+    width: 185px;
     /*    background: red;*/
 }
 
@@ -595,11 +595,11 @@ font-size: 1.6rem;
 }
 .snsCon img{
     display: block;
-    width: 55.46666666666px;
-    height: 55.46666666666px;
+    width: 53px;
+    height: 53px;
 }
 .snsBox p {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
 }
 
@@ -625,15 +625,24 @@ font-size: 1.6rem;
     height: 180px;
     padding-top: 20px;
 }
+.informationBox{
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+}
 .informationBox .informationUl{
+    
  display: flex;   
- justify-content: center;
+ 
+ flex-wrap: wrap;
+
 }
 .informationUl li{
     border-right: 1px solid #ccc;
-    padding-left: 10px;
-    padding-right: 12px;
-    font-size: 1.025rem;
+    padding-left: 8px;
+    padding-right: 9px;
+    font-size: 1.39rem ;
+    text-align: center;
 
 }
 
@@ -642,13 +651,13 @@ font-size: 1.6rem;
 }
 .ftTxtBox{
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 0 20px;
-    font-size: 1.125rem;
+    font-size: 1.45rem;
 
 }
 .fiTxt{
-    
+   
   
 }
 .fiTxt .copy{

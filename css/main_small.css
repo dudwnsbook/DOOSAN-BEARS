@@ -649,7 +649,7 @@ html{
 }
 
 .bearsMideoBox .mideoTitle {
-    width: 30%;
+    width: 40%;
     
     font-size: 2.1rem;
         /* float: left; */
@@ -797,9 +797,10 @@ html{
 .informationUl li{
     /* float: left; */
     border-right: 1px solid #ccc;
-    padding-left: 10px;
-    padding-right: 12px;
+    padding-left: 5px;
+    padding-right: 6px;
     font-size: 1.125rem;
+    text-align: center;
 
 }
 
@@ -813,10 +814,14 @@ html{
     margin-top: 40px;
     padding: 0 20px;
     font-size: 1.325rem;
+    text-align: center;
+    justify-content: center;
     /* display: flex; */
 
 }
 .fiTxt{
+    float: none;
+    /* text-align: center; */
     /* float: left; */
     /* margin-left: 0; */
   
